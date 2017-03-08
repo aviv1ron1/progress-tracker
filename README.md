@@ -11,12 +11,15 @@ small npm module for tracking progress of a set of tasks. you define the total a
 `constructor(total, callback, intervals)`
 
 total - total amount of tasks
+
 callback - to be called on each interval. receives the current interval
+
 intervals [optional] - custom intervals instead of default 10,20,30... 100. should be supplied as a sorted increasing array.
 
 `advance(n)`
 
 advance the tracking.
+
 n [optional] - how many tasks to advance. default is 1.
 
 #examples:

@@ -21,7 +21,8 @@ n [optional] - how many tasks to advance. default is 1.
 
 #examples:
 
-`var Progress = require('./progress.js');
+```javascript
+var Progress = require('./progress.js');
 
 ///////default usage
 
@@ -53,4 +54,4 @@ var prog = new Progress(100, (p) => {
 for (var i = 0; i < 100; i += 22) {
     prog.advance(i);
 }
-`
+```

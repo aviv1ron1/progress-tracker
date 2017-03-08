@@ -1,5 +1,5 @@
 {
-    "name": "progress-tracker",
+    "name": "progress-callback",
     "version": "1.0.0",
     "description": "track progress of a task and get callbacks in defined intervals",
     "main": "progress.js",

@@ -1,10 +1,10 @@
-# progress-tracker
+# progress-callback
 
 small npm module for tracking progress of a set of tasks. you define the total amount of tasks and the intervals for getting progress updates and the callback for receiving the progress updates.
 
 #install
 
-`npm install -g progress-tracker`
+`npm install -g progress-callback`
 
 # usage
 
@@ -25,7 +25,7 @@ n [optional] - how many tasks to advance. default is 1.
 #examples:
 
 ```javascript
-var Progress = require('./progress.js');
+var Progress = require('progress-callback');
 
 ///////default usage
 
